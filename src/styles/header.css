@@ -1,6 +1,7 @@
 header{
     width: 100%;
-    padding: 1.75rem 8%;
+    padding: 2rem 8%;
+    margin-bottom: 3rem;
 }
 
 
@@ -9,6 +10,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 #nav_logo{

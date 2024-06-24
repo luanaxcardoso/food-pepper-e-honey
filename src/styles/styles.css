@@ -9,11 +9,11 @@
 }
 
 body{
-    background-color: rgb(248, 220, 193);
+    background-color: rgb(245, 244, 242);
 }
 
 section{
-    padding: 1.75rem 8%;
+    padding: 2rem 8%;
 }
 
 .btn-default {
@@ -30,4 +30,44 @@ section{
 
 .btn-default:hover {
     background-color: #d15807;
+}
+
+#home {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    padding: 2rem 8%;
+    gap: 2rem;
+}
+
+#cta {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#cta .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #3a3838;
+}
+
+#cta .title span {
+    color: #ff6600;
+    font-size: larger;
+}
+
+#banner {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#banner img {
+    width: 90%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 50% ;
 }
