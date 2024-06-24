@@ -1,0 +1,36 @@
+#home {
+    display: flex;
+    min-height: 100vh;
+}
+
+#cta {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#cta .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #3a3838;
+}
+
+#cta .title span {
+    color: #ff6600;
+    font-size: larger;
+}
+
+#banner {
+    width: 65%; /* Define a largura do container da imagem */
+    display: flex;
+    justify-content: center; /* Centraliza a imagem dentro do container, se necessário */
+    align-items: center; /* Centraliza a imagem verticalmente dentro do container, se necessário */
+}
+
+#banner img {
+    width: 80%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 50% ;
+}

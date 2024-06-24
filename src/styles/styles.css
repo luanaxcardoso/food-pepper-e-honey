@@ -12,6 +12,10 @@ body{
     background-color: rgb(248, 220, 193);
 }
 
+section{
+    padding: 1.75rem 8%;
+}
+
 .btn-default {
     background-color:#ff6600;
     color: white;
