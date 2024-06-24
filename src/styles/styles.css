@@ -16,21 +16,6 @@ section{
     padding: 2rem 8%;
 }
 
-.btn-default {
-    background-color:#ff6600;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    font-size: 0.6rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-
-.btn-default:hover {
-    background-color: #d15807;
-}
 
 #home {
     display: flex;
@@ -51,11 +36,13 @@ section{
     font-size: 2rem;
     font-weight: 700;
     color: #3a3838;
+    align-items: center;
 }
 
 #cta .title span {
     color: #ff6600;
     font-size: larger;
+    align-items: center;
 }
 
 #banner {
@@ -70,4 +57,40 @@ section{
     height: auto; 
     object-fit: cover; 
     border-radius: 50% ;
+}
+
+.btn-default {
+    background-color:#ff6600;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+    align-items: center;
+}
+
+.btn-default:hover {
+    background-color: #d15807;
+}
+
+#cta_buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 4rem;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 1rem; 
+}
+
+.social-media-buttons .btn-default {
+    margin-right: 1rem; 
+    margin-top: 1rem;
 }
