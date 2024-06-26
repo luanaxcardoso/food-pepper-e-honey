@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('.btn-default').on('click', function() {
-        alert('Pedido enviado para o carrinho de compras!');
+        alert('Adicionado ao carrinho!');
     });
 });
 
@@ -17,3 +17,15 @@ $(document).ready(function() {
         });
     });
 });
+
+$(document).ready(function() {
+    
+    var $img = $('#banner img');
+    
+    
+    $img.hide();
+    
+    
+    $img.fadeIn(1000); 
+});
+
