@@ -77,6 +77,20 @@ section{
     background-color: #d15807;
 }
 
+.btn-default-cart {
+    background-color:#ff6600;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+    align-items: center;
+}
+
 #cta_buttons {
     display: flex;
     gap: 1rem;
@@ -146,7 +160,7 @@ section{
 }
 
 .footer {
-    background-color: #ebd7ca;
+    background-color: #f3b18f;
     color: white;
     padding: 2rem 8%;
     text-align: center;
