@@ -158,3 +158,52 @@
     font-size: 0.9rem;
     color: #7a7a7a;
 }
+
+@media screen and (max-width: 768px){
+    #testimonials {
+        padding: 4rem 2rem;
+    }
+
+    #feedbacks {
+        gap: 1rem;
+    }
+
+    .feedback {
+        padding: 1rem;
+    }
+
+    .feedback-avatar {
+        width: 50px;
+        height: 50px;
+    }
+
+    .feedback-content p:first-child {
+        font-size: 0.8rem;
+    }
+
+    .feedback-content p:last-child {
+        font-size: 0.7rem;
+    }
+
+    .btn-default-test {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    #feedbacks .hidden {
+        padding: 1rem;
+    }
+
+    #feedbacks .hidden .feedback-avatar {
+        width: 50px;
+        height: 50px;
+    }
+
+    #feedbacks .hidden .feedback-content p:first-child {
+        font-size: 0.8rem;
+    }
+
+    #feedbacks .hidden .feedback-content p:last-child {
+        font-size: 0.7rem;
+    }
+}
