@@ -209,4 +209,9 @@
     #feedbacks .hidden .feedback-content p:last-child {
         font-size: 0.7rem;
     }
+
+    .img-testimonials {
+        width: 30%;
+        
+    }
 }

@@ -20,11 +20,9 @@ body {
     z-index: 0;
 }
 
-
 section{
     padding: 2rem 8%;
 }
-
 
 #home {
     display: flex;
@@ -38,7 +36,7 @@ section{
     flex: 1; 
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 #cta .title {
@@ -68,10 +66,7 @@ section{
     object-fit: cover; 
     border-radius: 30%; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    
 }
-
-
 
 .btn-default {
     background-color:#ff6600;
@@ -135,10 +130,9 @@ section{
 
 #menu {
     padding: 2rem 8%;
-    background-color: #f8a268;
-    background-image: linear-gradient(to bottom, rgba(248, 162, 104, 1), rgba(248, 162, 104, 0)); 
+    background-color: #fdedba;
+    
 }
-
 
 #dishes {
     display: flex;
@@ -154,7 +148,7 @@ section{
     align-items: center;
     text-align: center;
     padding: 1rem;
-    border: 2px solid #ddd; 
+    border: 2px solid #4e4c4c; 
     border-radius: 0.5rem; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     margin-bottom: 2rem;
@@ -192,16 +186,27 @@ section{
     margin: 0 auto; 
 }
 
-
-
 .footer {
-    background-color: #f3b18f;
     color: white;
-    padding: 2rem 8%;
+    padding: 3rem 8%;
     text-align: center;
 }
 
 .footer p {
     font-size: 10rem;
     font-weight: 600;
+}
+
+.btn-default-footer {
+    background-color:#ff6600;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+    align-items: center;
 }
