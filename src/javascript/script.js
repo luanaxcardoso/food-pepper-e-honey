@@ -29,3 +29,8 @@ $(document).ready(function() {
     $img.fadeIn(1000); 
 });
 
+$(document).ready(function() {
+    $('.btn-default-cart').click(function() {
+        alert('O carrinho está em construção. Em breve estará disponível!');
+    });
+});

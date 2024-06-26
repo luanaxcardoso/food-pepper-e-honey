@@ -203,7 +203,7 @@ section{
 @media screen and (max-width: 768px) {
     #home {
         flex-direction: column;
-        align-items: center; /* Centraliza os itens na coluna */
+        align-items: center; 
     }
 
     #cta {
@@ -211,16 +211,16 @@ section{
     }
 
     #cta .title {
-        font-size: 1.5rem; /* Ajusta o tamanho da fonte do título */
-        margin-bottom: 1rem; /* Espaçamento inferior do título */
+        font-size: 2rem; 
+        margin-top: -1rem; 
     }
 
     #banner {
-        width: 100%; /* Ocupa toda a largura disponível */
+        width: 100%; 
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 2rem; /* Espaçamento inferior */
+        margin-bottom: 2rem; 
     }
 
     #banner img {
@@ -255,10 +255,19 @@ section{
     }
 
     .btn-default-cart {
-        font-size: 0.4rem;
-        display: flex;
-        padding-top: 1rem; 
+        font-size: 0.5rem;
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        position: absolute;
+        top: 0;
+        right: 1rem; 
         margin-top: 1rem; 
+        z-index: 1000; 
     }
+
+    .section-title {
+        font-size: 1.5rem; 
+    }
+    
     
 }
