@@ -5,7 +5,9 @@
 - Layout responsivo para dispositivos móveis.
 
 
-https://github.com/luanaxcardoso/food-pepper-e-honey/assets/112970416/09bc2737-9943-483d-a76b-fbcefc16ba0e
+
+https://github.com/luanaxcardoso/food-pepper-e-honey/assets/112970416/8d120c85-b293-408f-acec-d3194435fd19
+
 
 
 
